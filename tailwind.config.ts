@@ -17,6 +17,9 @@ const config: Config = {
         primary: {
           DEFAULT: "hsl(var(--primary))",
         },
+        "primary-hover": {
+          DEFAULT: "hsl(var(--primary-hover))",
+        },
       },
     },
   },
