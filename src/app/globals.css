@@ -66,6 +66,16 @@ body {
     width: 110%;
   }
 
+  .active-nav::before {
+    content: "";
+    background-color: hsla(var(--primary));
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+
   .skew {
     transform: skewX(-12deg);
   }
