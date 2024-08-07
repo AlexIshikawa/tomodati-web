@@ -69,4 +69,9 @@ body {
   .skew {
     transform: skewX(-12deg);
   }
+
+  .skew > :first-child {
+    display: block;
+    transform: skewX(12deg);
+  }
 }

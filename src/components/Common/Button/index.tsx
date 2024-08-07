@@ -6,13 +6,13 @@ const buttonVariants = {
 };
 
 export const Button = ({ children, variant, ...rest }: TButton) => {
-  const base = "px-4 py-2 relative primary-button__effect";
+  const base = "px-4 py-2 relative font-bold primary-button__effect";
   return (
     <button
       className={cn(base, buttonVariants[variant ?? "primary"])}
       {...rest}
     >
-      {children}
+      <span>{children}</span>
     </button>
   );
 };
